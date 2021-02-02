@@ -1,0 +1,2 @@
+# BloodStream-Management
+Our project is to save lives of people by providing blood. Our project is developed with various perspective i.e. hospital, blood bank, seeker and donor. We have provided security for authenticated user as new user have to register according to their type of perspective and existing user have to login. Our application we are developing helps to select the nearby blood bank instantly. Our application reduces the time to a greater extent that is searching for the required blood through blood banks
