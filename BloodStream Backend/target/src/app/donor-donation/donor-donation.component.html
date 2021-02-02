@@ -1,0 +1,131 @@
+<!--start Content of page-->
+<div class="bg-light">
+  <div class="layer w-50 mx-auto bg-white">
+    <form class="form-group border rounded" [formGroup]="donorForm">
+      <div class="container p-5">
+        <h4 class="text-center pt-auto">Register</h4>
+        <span class="fas">&#xf406;</span>
+        <input type="text" class="form-control" id="fName" placeholder="Full Name" data-content="name">
+        <i class="fas fa-envelope icon"></i>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email"
+          data-content="Email must like test@test.com">
+        <i class="fas fa-mobile-alt icon"></i>
+        <input type="phone" class="form-control" id="phone" placeholder="Phone">
+        <i class="fas fa-key icon"></i>
+        <input type="password" class="form-control" id="pass" placeholder="Password">
+
+        <div class="row p-3">
+          <div class="row col-md-6">
+            <label class="col-md-12 text-left font-weight-bold">Gender</label><br>
+            <div class="form-check mr-3">
+              <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+              <label class="form-check-label" for="exampleRadios1">
+                Female
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+              <label class="form-check-label" for="exampleRadios2">
+                Male
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <label class="form-row">Blood Group</label>
+          <select class="form-row">
+            <option selected>Blood Group</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label>Country</label>
+          <select id="inputState" class="form-control">
+            <option> Choose...</option>
+            <option>Uzbekistan</option>
+            <option>Russia</option>
+            <option>United States</option>
+            <option selected="">India</option>
+            <option>Afganistan</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label>City/Location</label>
+          <select name="state" id="state" class="form-control">
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label>Age</label>
+          <input class="form-control" type="number" placeholder="Enter Your Age.">
+        </div>
+
+        <div class="form-row">
+          <div class="col form-group">
+            <label>Address </label>
+            <input type="text" class="form-control" placeholder="Enter Address.">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label>Role</label>
+          <select id="role" class="form-control">
+            <option> Choose...</option>
+            <option>Donar</option>
+
+          </select>
+        </div>
+
+
+        <div class="text-center p-5"><button id="myBtn" class="btn btn-danger m-auto">Register</button></div>
+      </div>
+    </form>
+  </div>
+</div>
+<!--End Content of page-->

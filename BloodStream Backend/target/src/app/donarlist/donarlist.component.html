@@ -1,0 +1,36 @@
+<div class="container">
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search By Location" aria-label="Search By UserName"
+            aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">Search</button>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Conatct</th>
+                <th>Address</th>
+                <th>Location</th>
+                <th>Blood Group</th>
+            </tr>
+        </thead>
+
+        <tbody *ngFor="let b of dlist">
+            <tr>
+                <td>{{b.name}}</td>
+                <td>{{b.email}}</td>
+                <td>{{b.contact_number}}</td>
+                <td>{{b.address}}</td>
+                <td>{{b.location}}</td>
+                <td>{{b.blood_group}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>
